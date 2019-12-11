@@ -1,4 +1,4 @@
-<?php
+    <?php
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
     $visitor_number = $_POST['phone'];
