@@ -1,12 +1,6 @@
 f@import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
-/*
-	Introspect by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2334,6 +2328,9 @@ f@import url(font-awesome.min.css);
 		border: 0;
 		display: inline-block;
 		position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 	}
 
 		.image img {
@@ -2365,20 +2362,24 @@ f@import url(font-awesome.min.css);
 			display: block;
 			margin: 0 0 2em 0;
 			width: 100%;
+            
 		}
 
 			.image.fit img {
 				width: 100%;
+                
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
 			width: 100%;
+            
 		}
 
 			.image.main img {
 				width: 100%;
+                
 			}
 
 /* List */
@@ -3209,12 +3210,12 @@ f@import url(font-awesome.min.css);
 		}
 
 	.navPanelToggle {
-		position: fixed;
+		position: relative;
 		text-decoration: none;
 		height: 4em;
-		right: 3em;
+		right: 1em;
 		top: .75em;
-		width: 4em;
+		width: em;
 		display: none;
 		z-index: 10002;
 	}
@@ -3230,12 +3231,12 @@ f@import url(font-awesome.min.css);
 			display: block;
 			font-size: 16px;
 			height: 2.25em;
-			left: 0.5em;
+			left: 1em;
 			line-height: 2.25em;
 			position: absolute;
 			text-align: center;
 			top: 0.5em;
-			width: 3.5em;
+			width: 2em;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -4096,3 +4097,14 @@ f@import url(font-awesome.min.css);
     left: 0%;
   }
 }
+
+#logo { height: 100px; width: 200px; overflow: hidden; }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
